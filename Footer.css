@@ -1,0 +1,50 @@
+// filepath: c:\Users\richi\OneDrive\Desktop\Portfolio\portfolio\src\Components\Footer\Footer.css
+
+.footer {
+    width: 100%; /* Ensures the footer spans the full width */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #ddd; /* Optional border for separation */
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+}
+
+.footer-links a img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.footer-links a img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2); /* Slight zoom on hover */
+}
+.footer p {
+    margin-top: 20px; /* Adds spacing above the text */
+    font-size: 14px; /* Adjusts the font size */
+    color: white; /* Dark text color for contrast */
+    font-weight: 400; /* Normal font weight */
+    line-height: 1.5; /* Improves readability */
+    text-align: center; /* Ensures the text is centered */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+}
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .footer-links a img {
+        width: 25px;
+        height: 25px;
+    }
+}
