@@ -1,0 +1,62 @@
+/* Contact Page Styles */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+     /* Dark background */
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    padding: 0px 30px;
+   font-size: 80px;
+   font-weight: 600;
+   color:rgb(152, 112, 152);
+   text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333; /* Dark input fields */
+    color: #ddd;
+    font-size: 16px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    align-self: flex-start;
+    font-size: 22px;
+    cursor: pointer;
+  }
